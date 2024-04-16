@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: rgba(241, 202, 4, 0.172);
+
+    
+}
+.container{
+    max-width: 100%;
+    width: 80%;
+    margin: 20px;
+    height: auto;
+    position: relative ;
+    display: inline-block;
+    text-align: center;
+}
+h1{
+color: rgb(3, 55, 243);
+font-size: 2em;
+}
+.row img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 2em;
+    margin-top: 2em;
+    position: relative;
+}
+
+
+.container:hover .text-container {
+    opacity: 1;
+}
+p{
+    font-size: 1.3em;
+    text-align: left;
+    margin: 1em 0;
+    color: black;
+    font-weight: 500;
+}
+.tab{
+    
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
